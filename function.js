@@ -102,7 +102,7 @@ let generateButton = document.getElementById("generatebutton");
 function copy(content, button) {
   console.log("action properly called");
   navigator.clipboard.writeText(content.textContent).then(function () {
-    button.textContent = "copied!";
+    button.textContent = "Copied!";
     setTimeout(() => {
       button.textContent = "Copy";
     }, 3000);
