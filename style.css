@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(to bottom, #1f342d, #1a222d);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  width: 40%;
+  height: auto;
+  padding: 64px 64px;
+  margin: auto;
+  background-color: #1f2937;
+  border-radius: 16px;
+}
+
+main h1 {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -2.5%;
+  color: white;
+  margin-bottom: 12px;
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+}
+
+.passwordlabel {
+  background-color: #273549;
+  font-size: 16px;
+  color: #55f991;
+  padding: 16px 16px;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: 600;
+}
+main h1 span {
+  color: #4adf86;
+}
+
+p {
+  color: #d5d4d8;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.lowerwrapper .gen-button {
+  margin: 48px 0 32px 0;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #10b981;
+  padding: 12px 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.display .btn {
+  width: 100%;
+}
+hr {
+  border: 1px solid #2f3e53;
+  width: 100%;
+}
+
+.display {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: left;
+}
+
+.displaywrapper {
+  display: flex;
+  margin-top: 32px;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .displaywrapper {
+    flex-direction: column; /* Stack items vertically on mobile */
+    align-items: center; /* Center items horizontally when stacked */
+  }
+}

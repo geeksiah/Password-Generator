@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>Kreateve Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="infowrapper">
+        <h1>
+          Generate a <br />
+          <span>random password</span>
+        </h1>
+        <p>Never use an insecure password again.</p>
+      </section>
+      <section class="lowerwrapper">
+        <button id="generatebutton" class="btn gen-button">
+          Generate passwords
+        </button>
+        <hr />
+        <section class="displaywrapper">
+          <div class="display">
+            <span id="shortpassword" class="passwordlabel"
+              >12-letters password</span
+            >
+            <button
+              id="copybtn1"
+              class="btn"
+              onclick="copy(shortPassword, copyButton1)"
+            >
+              Copy
+            </button>
+          </div>
+
+          <div class="display">
+            <span id="longpassword" class="passwordlabel"
+              >16-letters password</span
+            >
+            <button
+              id="copybtn2"
+              class="btn"
+              onclick="copy(longPassword, copyButton2)"
+            >
+              Copy
+            </button>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="function.js"></script>
+  </body>
+</html>
