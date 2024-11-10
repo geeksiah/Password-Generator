@@ -88,7 +88,7 @@ hr {
   gap: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .displaywrapper {
     flex-direction: column; /* Stack items vertically on mobile */
     align-items: center; /* Center items horizontally when stacked */
