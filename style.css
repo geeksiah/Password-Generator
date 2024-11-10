@@ -93,4 +93,10 @@ hr {
     flex-direction: column; /* Stack items vertically on mobile */
     align-items: center; /* Center items horizontally when stacked */
   }
+
+  main {
+    width: 80%;
+    height: auto;
+    padding: 64px 64px;
+  }
 }
