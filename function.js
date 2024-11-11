@@ -97,6 +97,7 @@ let shortPassword = document.getElementById("shortpassword");
 let copyButton1 = document.getElementById("copybtn1");
 let copyButton2 = document.getElementById("copybtn2");
 let generateButton = document.getElementById("generatebutton");
+generateButton.disabled = true;
 
 // Declaring Function that copies a text.
 function copy(content, button) {
@@ -110,6 +111,7 @@ function copy(content, button) {
 }
 
 function generatePassword(length) {
+  generateButton.disabled = false;
   let password = "";
   while (password.length < length) {
     password += characters[Math.floor(Math.random() * characters.length)];
