@@ -11,8 +11,8 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.copybtn1:disabled, 
-.copybtn2:disabled {
+copybtn1:disabled, 
+copybtn2:disabled {
   background-color: #a4ccbf; /* Gray background */
   color: #666;            /* Dim text color */
   cursor: not-allowed;    /* 'Not allowed' cursor */
