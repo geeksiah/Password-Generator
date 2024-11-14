@@ -12,6 +12,7 @@ body {
 }
 
 #copybtn1, #copybtn2{
+  cursor: pointer;
 border: 1px solid #10b981;
 background-color: transparent;
 color: #10b981;
