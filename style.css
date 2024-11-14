@@ -13,16 +13,19 @@ body {
 
 #copybtn1, #copybtn2{
 border: 1px solid #10b981;
+  background: transparent;
 color: #10b981;
 font-size: 16px;
 line-height: 24px;
 padding: 12px 16px;
 border-radius: 8px;
 font-weight: 600;
+width: 100%;
 }
 
 #copybtn1:disabled, 
 #copybtn2:disabled {
+    background: transparent;
   border: 1px solid #a4ccbf; /* Gray background */
   color: #a4ccbf;            /* Dim text color */
   cursor: not-allowed;    /* 'Not allowed' cursor */
@@ -84,9 +87,7 @@ p {
   font-weight: 600;
 }
 
-.display .btn {
-  width: 100%;
-}
+
 hr {
   border: 1px solid #2f3e53;
   width: 100%;
