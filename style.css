@@ -11,10 +11,15 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+#copybtn1 #copybtn2{
+border: 1px solid #10b981;
+color: #10b981;
+}
+
 #copybtn1:disabled, 
 #copybtn2:disabled {
-  background-color: #a4ccbf; /* Gray background */
-  color: #666;            /* Dim text color */
+  border: 1px solid #a4ccbf; /* Gray background */
+  color: #a4ccbf;            /* Dim text color */
   cursor: not-allowed;    /* 'Not allowed' cursor */
   opacity: 0.6;           /* Reduced opacity */
 }
